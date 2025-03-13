@@ -15,7 +15,8 @@
 }
 
 .header {
-    width: 75%; /* Could be anything, but 75% works here. */
+	width: auto; /* Replaced with utility class */
+	class: slds-size_3-of-4;
     margin: auto; /* This is what center the content div itself. */
     border: 1px solid red;
  }
@@ -28,8 +29,8 @@
   }
 
  p {
-     text-align: center; /* This will center the text inside the paragraph tag */
-     border: 1px solid black;
+	 class: slds-text-align_center; /* This will center the text inside the paragraph tag */
+	 border: 1px solid black;
  }
 
 html,
