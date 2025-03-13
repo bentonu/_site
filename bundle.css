@@ -1,0 +1,41 @@
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--background-color: black;
+
+	--text-color: white;
+	--text-color-link: white;
+	--text-color-link-active: white;
+	--text-color-link-visited: #17050F;
+}
+
+.header {
+    width: 75%; /* Could be anything, but 75% works here. */
+    margin: auto; /* This is what center the content div itself. */
+    border: 1px solid red;
+ }
+ 
+ img {
+	border: 2px solid white;
+	border-radius: 8px;
+	width: 200px;
+	align-content: center;
+  }
+
+ p {
+     text-align: center; /* This will center the text inside the paragraph tag */
+     border: 1px solid black;
+ }
+
+html,
+body {
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+	color: var(--text-color-link);
+}
