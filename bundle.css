@@ -20,14 +20,14 @@
     border: 1px solid red;
  }
  
-img {
+ img {
 	border: 2px solid white;
 	border-radius: 8px;
 	width: 200px;
 	align-content: center;
   }
 
-p {
+ p {
 	 text-align: center;
      border: 1px solid black;
  }
